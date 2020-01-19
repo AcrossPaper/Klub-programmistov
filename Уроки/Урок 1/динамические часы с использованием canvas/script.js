@@ -72,7 +72,7 @@ function drawTimeArrows(ctx) {
     seconds_line.moveTo(canvas_height/2, canvas_width/2);
     seconds_line.lineTo(seconds_x, seconds_y);
     ctx.lineWidth = 3;
-    ctx.strokeStyle="#FF0000";
+    ctx.strokeStyle="#0000FF";
     ctx.stroke(seconds_line);
     
     var hour_x = circle_radius * Math.cos(hourAngle);
